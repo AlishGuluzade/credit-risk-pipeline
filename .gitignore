@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+mlruns/
+mlflow.db
+data/clean_credit_data.csv
+data/credit_risk.db
+data/feature_importance.csv
+models/best_model.pkl
+.streamlit/
