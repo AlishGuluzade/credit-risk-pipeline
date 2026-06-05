@@ -243,7 +243,7 @@ elif page == "Predict":
     st.markdown("---")
 
     if not api_online:
-        st.error("API is offline. Please start: `uvicorn src.api:app --reload`")
+        st.warning("API is warming up... Please wait 30 seconds and refresh the page.")
 
     with st.form("prediction_form"):
         st.markdown('<p class="section-title">Customer Information</p>', unsafe_allow_html=True)
